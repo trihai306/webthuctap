@@ -1,0 +1,230 @@
+/* .blog-page {
+  padding: 0 60px;
+} */
+
+.input-blog {
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    border: 1px solid #d3d4d5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 13px;
+}
+
+.input-blog:focus {
+    outline: none;
+}
+ 
+.wrap-btn-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.btn-header {
+    background-color: #006dd0;
+    color: #FFF;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: all .2s;
+}
+
+.btn-header:hover {
+    background-color: #0059aa;
+    cursor: pointer;
+}
+
+.blog-header {
+    padding: 0 60px;
+}
+
+.header-navbar {
+    border-bottom: 1px solid #ebeced;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0 12px 0;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.menu-item {
+    padding: 10px;
+    line-height: 1.45;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.navbar-search {
+    display: flex;
+}
+
+.search-input {
+    width: 360px;
+    position: relative;
+    left: 70px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.btn-search {
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -.16px;
+    border: 1px solid #0061c4;
+    border-color: #2d6ca2;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    width: 70px;
+    color: #c1bed5 !important;
+    text-align: center;
+    z-index: 1;
+}
+
+
+
+.blog-body {
+    /* background-image: linear-gradient(to bottom, #e6f1f9, #f8fbfd); */
+    background-image: url(https://d357wx87z4hzhv.cloudfront.net/wp-content/uploads/2020/09/13074408/bg-graph.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: cover;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding: 80px 150px;
+}
+
+.row-content-wrap {
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.row-content-wrap>img {
+    margin: auto;
+}
+
+.blog-big-item-img {
+    width: 575px;
+    height: 100%;
+    border-radius: 10px;
+    border: 0;
+}
+
+.blog-big-item-desc {
+    margin-left: 16px;
+}
+
+.item-link-blue {
+    margin-bottom: 10px;
+    color: #006dd0;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: .15em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hover-change-color:hover {
+    color: #69abe5;
+}
+
+.item-link-black {
+    line-height: 1;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.item-link-black:hover {
+    color: #64676d;
+}
+
+.item-text {
+    font-size: 20px;
+    color: #24282f;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.nomal-item-wrap-img {
+    padding: 4px 0 16px 0;
+}
+
+.nomal-item-img {
+    border-radius: 10px;
+    border: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.nomal-item-date {
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.pagination {
+    display: flex;
+    padding: 0 0 40px;
+}
+
+.blog-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.blog-footer-title {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 58px;
+    letter-spacing: -.52px;
+    text-align: center;
+    width: 50%;
+}
+
+.blog-footer-desc {
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: -.22px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    width: 58%;
+    text-align: center;
+}
+
+.blog-footer-send-mail {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+}
+
+.blog-footer-input-email {
+    margin-right: 15px;
+    flex: 1;
+}
+
+@media (max-width: 1200px) {
+    .blog-body {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
