@@ -101,7 +101,7 @@
 
 .blog-body {
     /* background-image: linear-gradient(to bottom, #e6f1f9, #f8fbfd); */
-    background-image: url(https://d357wx87z4hzhv.cloudfront.net/wp-content/uploads/2020/09/13074408/bg-graph.png);
+    /* background-image: url(https://d357wx87z4hzhv.cloudfront.net/wp-content/uploads/2020/09/13074408/bg-graph.png); */
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: scroll;
@@ -111,7 +111,12 @@
     padding: 80px 150px;
 }
 
+/* .bg-img {
+    background-image: url(https://d357wx87z4hzhv.cloudfront.net/wp-content/uploads/2020/09/13074408/bg-graph.png);
+} */
+
 .row-content-wrap {
+    
     display: flex;
     padding-bottom: 80px;
 }
